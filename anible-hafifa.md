@@ -12,7 +12,8 @@ https://docs.ansible.com/projects/ansible/latest/getting_started/
 
 2. Add a node exporter (prometheus) that collects data and sends it to the prometheus + grafana Lev created. Check that you can see all the important metrics (including gitlab's metrics, like available repositories etc.)
 
-3. Create another "tasks" file that upgrades the gitlab instance you've created. 
+3. Now, upgrade the instance you've created using ansible. 
+
 
 
 
