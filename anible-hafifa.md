@@ -7,9 +7,12 @@ Read the official ansible docs. Make sure you understand all the concepts before
 https://docs.ansible.com/projects/ansible/latest/getting_started/
 
 # Exercise: 
-1. Deploy gitlab on our vm using ansible. (You can run  ansible when the tagret host is localhost). 
+
+1. Deploy gitlab (vm installation, using the deb package) on our vm using ansible. Install gitlab 16.5.6. (You can run ansible when the tagret host is localhost). 
     Before deploying, check that the vm has enough resources. 
 
 2. Add a node exporter (prometheus) that collects data and sends it to the prometheus + grafana Lev created. Check that you can see all the important metrics (including gitlab's metrics, like available repositories etc.)
 
 3. Now, upgrade the instance you've created using ansible. 
+
+Everything should be installed already. If you're facing any problems, you can install whatever you want (just make sure you're not ruining anything).
